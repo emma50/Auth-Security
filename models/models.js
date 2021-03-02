@@ -7,10 +7,10 @@ const Schema = mongoose.Schema
 
 // User Schema
 const userSchema = new Schema({
-    email: String,
-    password: String,
-    googleId: String,
-    secret: String 
+  email: String,
+  password: String,
+  googleId: String,
+  secret: String 
 })
 
 // Use passport local mongoose
